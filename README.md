@@ -72,11 +72,11 @@ Make the following modifications to your buildozer.spec file.
 requirements = kivy, android, jnius, kivmob
 ...
 android.permissions = INTERNET, ACCESS_NETWORK_STATE
-android.api = 30
+android.api = 31
 android.minapi = 21
 android.sdk = 24
-android.ndk = 19b
-android.gradle_dependencies = 'com.google.firebase:firebase-ads:10.2.0'
+android.ndk = 23b
+android.gradle_dependencies ='com.google.firebase:firebase-ads:15.0.0'
 p4a.branch = master
 android.meta_data = com.google.android.gms.ads.APPLICATION_ID=ca-app-pub-3940256099942544~3347511713
 ```
